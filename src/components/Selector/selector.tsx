@@ -43,7 +43,7 @@ function Selector() {
       <div className="flex gap-4 justify-center items-center">
         <p onClick={handleOptions}>
           {options === "options" ? (
-            <p className=" text-blue-950 font-bold border-b-4 border-amber-300 border-spacing-4">
+            <p className=" text-blue-950 font-bold border-b-4 pb-3 border-amber-300 border-spacing-4">
               ACCOUNT OPTIONS
             </p>
           ) : (
@@ -52,7 +52,7 @@ function Selector() {
         </p>
         <p onClick={handleInvest}>
           {options === "invest" ? (
-            <p className="mb-2 text-blue-950 font-bold border-b-4 border-amber-300 rounded-tr-2xl">
+            <p className="mb-2 text-blue-950 font-bold border-b-4 pb-3 border-amber-300 rounded-tr-2xl">
               INVEST
             </p>
           ) : (
@@ -61,7 +61,7 @@ function Selector() {
         </p>
         <p onClick={handleTransactions}>
           {options === "transactions" ? (
-            <p className="mb-2 text-blue-950 font-bold border-b-4 border-amber-300 rounded-t-2xl">
+            <p className="mb-2 text-blue-950 font-bold border-b-4 pb-3 border-amber-300 rounded-t-2xl">
               TRANSACTIONS
             </p>
           ) : (
