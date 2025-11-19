@@ -18,7 +18,7 @@ function AccountContainer() {
         </div>
       </div>
       <div className="flex justify-center items-center mt-11">
-        <p className="text-gray-700">
+        <p className="text-neutral-500">
           clinicPesa <span className="text-blue-950 font-medium">T&Cs </span>
           apply.
         </p>

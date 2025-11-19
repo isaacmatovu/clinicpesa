@@ -9,7 +9,7 @@ function Header() {
         <X className="text-yellow-200" />
       </div>
       <div className="text-center justify-center py-5">
-        <p>Good Morning, Robert</p>
+        <p className=" text-xs font-bold">Good Morning, Robert</p>
       </div>
     </div>
   );
