@@ -18,17 +18,17 @@ function InfoCard() {
         </div>
         <div className="flex justify-center gap-4 items-center mt-5 border-b-[0.5px] border-gray-200 pb-2">
           <div className="flex gap-1">
-            <p className="text-gray-600">Frequency:</p>
-            <p className="text-neutral-700 font-medium">Monthly</p>
+            <p className="text-gray-600 text-xs">Frequency:</p>
+            <p className="text-neutral-700 font-medium text-xs">Monthly</p>
           </div>
           <div className="flex ">
             <div className="text-gray-600 flex gap-1">
-              <p>AutoSave</p>
-              <p>amount:</p>
+              <p className="text-xs">AutoSave</p>
+              <p className="text-xs">amount:</p>
             </div>
             <div className="text-neutral-700 font-medium flex gap-1">
-              <p>UGX </p>
-              <p>1,000</p>
+              <p className="text-xs">UGX </p>
+              <p className="text-xs">1,000</p>
             </div>
           </div>
         </div>
