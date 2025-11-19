@@ -7,7 +7,7 @@ function InfoCard() {
         <div className="pl-2 bg-gray-300 w-[70px]  rounded-br-[10px] rounded-tl-[10px]">
           <p className="text-cyan-950 font-medium">Savings</p>
         </div>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-end">
           <div className="flex flex-col justify-center items-center">
             <p className="text-cyan-950 font-medium mx-auto">Balance</p>
             <p className="text-blue-950 text-3xl font-bold">UGX 50,000</p>
